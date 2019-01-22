@@ -184,6 +184,122 @@
           </div>
         </div>
       </div>
+
+      <!--modal contact-->
+
+      <div class="modal modal-primary" id="ms-contact-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog animated zoomIn animated-3x" role="document">
+          <div class="modal-content">
+            <div class="modal-header d-block shadow-2dp no-pb">
+              <button type="button" class="close d-inline pull-right mt-2" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  <i class="zmdi zmdi-close"></i>
+                </span>
+              </button>
+              <div class="modal-title text-center">
+                <h3 class="no-m ms-site-title">
+                  <span>CONTÁCTENOS</span>
+                </h3>
+              </div>
+              <div class="modal-header-tabs">
+                <ul class="nav nav-tabs nav-tabs-full nav-tabs-3 nav-tabs-primary" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a href="#ms-form-tab" aria-controls="ms-login-tab" role="tab" data-toggle="tab" class="nav-link active withoutripple">
+                      <i class="fas fa-envelope-open"></i> Formulario</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a href="#ms-map-tab" aria-controls="ms-register-tab" role="tab" data-toggle="tab" class="nav-link withoutripple">
+                      <i class="fas fa-globe"></i> Mapa</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a href="#ms-date-tab" aria-controls="ms-recovery-tab" role="tab" data-toggle="tab" class="nav-link withoutripple">
+                      <i class="fas fa-address-card"></i> Datos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal-body">
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade active show" id="ms-form-tab">
+                  <form autocomplete="off">
+                    <fieldset>
+                      <div class="form-group label-floating">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="zmdi zmdi-account"></i>
+                          </span>
+                          <label for="inputName" autocomplete="false" class="col-lg-12 control-label">Nombre</label>
+                          <input type="text" id="ms-form-user" class="form-control"> </div>
+                          <span class="help-block ml-5">Por favor ingrese su nombre completo.</span>
+                      </div>
+                      <div class="form-group label-floating">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="zmdi zmdi-email"></i>
+                          </span>
+                          <label for="inputEmail" autocomplete="false" class="col-lg-12 control-label">E-mail</label>
+                          <input type="text" id="ms-form-user" class="form-control"> </div>
+                          <span class="help-block ml-5">Por favor ingrese su Email.</span>
+                      </div>
+                      <div class="form-group label-floating">
+                        <div class="input-group mb-5">
+                          <span class="input-group-addon">
+                            <i class="fas fa-comments"></i>
+                          </span>
+                          <label for="textArea" class="col-lg-2 control-label">Mensaje</label>
+                          <textarea class="form-control" rows="5" id="textArea"></textarea>
+                          <span class="help-block">Por favor ingrese su mensaje.</span>
+                      </div>
+                      <button class="btn btn-raised btn-block btn-primary">ENVIAR</button>
+                      
+                    </fieldset>
+                  </form>
+                  <div class="text-center">
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <a href="javascript:void(0)" class="btn-circle btn-circle-raised btn-linkedin">
+                      <i class="zmdi zmdi-linkedin"></i></a>
+                    <a href="javascript:void(0)" class="btn-circle btn-circle-raised btn-facebook">
+                      <i class="zmdi zmdi-facebook"></i></a>
+                    <a href="javascript:void(0)" class="btn-circle btn-circle-raised btn-instagram">
+                      <i class="zmdi zmdi-instagram"></i></a>
+                    <a href="javascript:void(0)" class="btn-circle btn-circle-raised btn-youtube">
+                      <i class="fab fa-youtube"></i></a>  
+                  </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="ms-map-tab">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5623.567562362534!2d-74.061706814131!3d4.689357942170462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ac1aac7ccb7%3A0x4c97443b29033d6!2sUTAM!5e0!3m2!1ses!2sco!4v1518531453393" width="100%" height="450" frameborder="0"  allowfullscreen=""></iframe>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="ms-date-tab">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <address class="no-mb">
+                          <p>
+                            <i class="color-danger-light zmdi zmdi-pin mr-1"></i> AV Carrera 45 No. 102 10, Piso 7</p>
+                          <p>
+                            <i class="color-warning-light zmdi zmdi-map mr-1"></i> Bogotá, Colombia</p>
+                          <p>
+                            <i class="color-info-light zmdi zmdi-email mr-1"></i>
+                            <a href="mailto:joe@example.com">comercialgeneral@utam.com.co</a>
+                          </p>
+                          <p>
+                            <i class="color-royal-light zmdi zmdi-phone mr-1"></i>Pbx: +57 (1) 432 56 69 </p>
+                          <p>
+                            <i class="color-success-light fas fa-mobile-alt mr-1"></i>Cel: 322 763 38 42 </p>
+                          <p>
+                            <i class="color-primary-light fas fa-laptop mr-1"></i>https://utam.com.co</p>
+                        </address>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--end modal contact-->
       <header class="ms-header ms-header-primary">
         <!--ms-header-primary-->
         <div class="container container-full">
@@ -201,7 +317,7 @@
               <ul class="share-menu-list">
                 <li class="animated fadeInRight animation-delay-3">
                   <a href="javascript:void(0)" class="btn-circle btn-google">
-                    <i class="zmdi zmdi-google"></i>
+                    <i class="zmdi zmdi-linkedin"></i>
                   </a>
                 </li>
                 <li class="animated fadeInRight animation-delay-2">
@@ -209,9 +325,14 @@
                     <i class="zmdi zmdi-facebook"></i>
                   </a>
                 </li>
-                <li class="animated fadeInRight animation-delay-1">
-                  <a href="javascript:void(0)" class="btn-circle btn-twitter">
-                    <i class="zmdi zmdi-twitter"></i>
+                <li class="animated fadeInRight animation-delay-2">
+                  <a href="javascript:void(0)" class="btn-circle btn-facebook">
+                    <i class="zmdi zmdi-instagram"></i>
+                  </a>
+                </li>
+                <li class="animated fadeInRight animation-delay-2">
+                  <a href="javascript:void(0)" class="btn-circle btn-facebook">
+                    <i class="zmdi zmdi-youtube"></i>
                   </a>
                 </li>
               </ul>
@@ -222,12 +343,15 @@
             <a href="javascript:void(0)" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8" data-toggle="modal" data-target="#ms-account-modal">
               <i class="zmdi zmdi-account"></i>
             </a>
-            <form class="search-form animated zoomInDown animation-delay-9">
+            <a href="javascript:void(0)" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8" data-toggle="modal" data-target="#ms-contact-modal">
+              <i class="zmdi zmdi-email"></i>
+            </a>
+            <!--<form class="search-form animated zoomInDown animation-delay-9">
               <input id="search-box" type="text" class="search-input" placeholder="Search..." name="q" />
               <label for="search-box">
-                <i class="zmdi zmdi-search"></i>
+                <i class="zmdi zmdi-email"></i>
               </label>
-            </form>
+            </form>-->
             <a href="javascript:void(0)" class="btn-ms-menu btn-circle btn-circle-primary ms-toggle-left animated zoomInDown animation-delay-10">
               <i class="zmdi zmdi-menu"></i>
             </a>
@@ -244,223 +368,10 @@
           </div>
           <div class="collapse navbar-collapse" id="ms-navbar">
             <ul class="navbar-nav">
-              <li class="nav-item dropdown active">
-                <a href="#" class="nav-link dropdown-toggle animated fadeIn animation-delay-7" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-name="home">Inicio
+            <li class="nav-item dropdown">
+                <a href="{{ url('/') }}" class="animated fadeIn animation-delay-7" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-name="page">Inicio
                   <i class="zmdi zmdi-chevron-down"></i>
                 </a>
-                <ul class="dropdown-menu">
-                  <li class="ms-tab-menu">
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs ms-tab-menu-left" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link active" href="#tab-general" data-hover="tab" data-toggle="tab" role="tab">
-                          <i class="zmdi zmdi-home"></i> General Purpose</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#tab-landing" data-hover="tab" data-toggle="tab" role="tab">
-                          <i class="zmdi zmdi-desktop-windows"></i> Landing pages</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#tab-revolution" data-hover="tab" data-toggle="tab" role="tab">
-                          <i class="zmdi zmdi-panorama-horizontal"></i> Slider Revolution</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#tab-shop" data-hover="tab" data-toggle="tab" role="tab">
-                          <i class="zmdi zmdi-store"></i> Shop</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#tab-profile" data-hover="tab" data-toggle="tab" role="tab">
-                          <i class="zmdi zmdi-account"></i> Professional Profile</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#tab-blog" data-hover="tab" data-toggle="tab" role="tab">
-                          <i class="zmdi zmdi-edit"></i> Blog Template</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#tab-magazine" data-hover="tab" data-toggle="tab" role="tab">
-                          <i class="zmdi zmdi-flip"></i> Magazine Template</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#tab-app" data-hover="tab" data-toggle="tab" role="tab">
-                          <i class="zmdi zmdi-smartphone-iphone"></i> App Pages</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#tab-ads" data-hover="tab" data-toggle="tab" role="tab">
-                          <i class="zmdi zmdi-search"></i> Classified Ads</a>
-                      </li>
-                    </ul>
-                    <!-- Tab panes -->
-                    <div class="tab-content ms-tab-menu-right">
-                      <div class="tab-pane active" id="tab-general" role="tabpanel">
-                        <ul class="ms-tab-menu-right-container">
-                          <li>
-                            <a href="index.html">Default Home</a>
-                          </li>
-                          <li>
-                            <a href="home-generic-2.html">Home Black Slider</a>
-                          </li>
-                          <li>
-                            <a href="home-generic-3.html">Home Browsers Intro</a>
-                          </li>
-                          <li>
-                            <a href="home-generic-4.html">Home Mobile Intro</a>
-                          </li>
-                          <li>
-                            <a href="home-generic-5.html">Home Material Icons</a>
-                          </li>
-                          <li>
-                            <a href="home-generic-6.html">Home Typed Hero</a>
-                          </li>
-                          <li>
-                            <a href="home-generic-7.html">Home Typed Hero 2</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="tab-pane" id="tab-landing" role="tabpanel">
-                        <ul class="ms-tab-menu-right-container">
-                          <li>
-                            <a href="home-landing.html">Home Landing Intro</a>
-                          </li>
-                          <li>
-                            <a href="home-landing2.html">Home Landing Intro 2</a>
-                          </li>
-                          <li>
-                            <a href="home-landing4.html">Home Landing Intro 3</a>
-                          </li>
-                          <li>
-                            <a href="home-landing3.html">Home Landing Video</a>
-                          </li>
-                          <li>
-                            <a href="home-cv3.html">Home Profile Landing 1</a>
-                          </li>
-                          <li>
-                            <a href="home-cv4.html">Home Profile Landing 2</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Landing Video 2 (Next Update)</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="tab-pane" id="tab-revolution" role="tabpanel">
-                        <ul class="ms-tab-menu-right-container">
-                          <li>
-                            <a class="with-badge" href="home-revolution.html">Home Revolution Devices
-                              <span class="badge badge-success pull-right">1.3</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a class="with-badge" href="home-revolution2.html">Home Revolution App
-                              <span class="badge badge-success pull-right">1.3</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a class="with-badge" href="home-revolution3.html">Home Revolution Video
-                              <span class="badge badge-success pull-right">1.3</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a class="with-badge" href="home-revolution4.html">Home Revolution Idea
-                              <span class="badge badge-success pull-right">1.3</span>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="tab-pane" id="tab-shop" role="tabpanel">
-                        <ul class="ms-tab-menu-right-container">
-                          <li>
-                            <a href="home-shop.html">Home Shop 1</a>
-                          </li>
-                          <li>
-                            <a href="home-shop2.html">Home Shop 2</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Home Shop 3 (Next Update)</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Home Shop 4 (Next Update)</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="tab-pane" id="tab-profile" role="tabpanel">
-                        <ul class="ms-tab-menu-right-container">
-                          <li>
-                            <a href="home-cv.html">Home Profile 1</a>
-                          </li>
-                          <li>
-                            <a href="home-cv2.html">Home Profile 2</a>
-                          </li>
-                          <li>
-                            <a href="home-cv3.html">Home Profile Landing 1</a>
-                          </li>
-                          <li>
-                            <a href="home-cv4.html">Home Profile Landing 2</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="tab-pane" id="tab-blog" role="tabpanel">
-                        <ul class="ms-tab-menu-right-container">
-                          <li>
-                            <a href="home-blog.html">Home Blog 1</a>
-                          </li>
-                          <li>
-                            <a href="home-blog2.html">Home Blog 2</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Home Blog 3 (Next Update)</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Home Blog 4 (Next Update)</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="tab-pane" id="tab-magazine" role="tabpanel">
-                        <ul class="ms-tab-menu-right-container">
-                          <li>
-                            <a href="home-magazine.html">Home Magazine 1</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Magazine 2 (Next Update)</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Magazine 3 (Next Update)</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Magazine 4 (Next Update)</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="tab-pane" id="tab-app" role="tabpanel">
-                        <ul class="ms-tab-menu-right-container">
-                          <li>
-                            <a href="home-app.html">Home App 1</a>
-                          </li>
-                          <li>
-                            <a href="home-app2.html">Home App 2</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Home App 3 (Next Update)</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Home App 4 (Next Update)</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="tab-pane" id="tab-ads" role="tabpanel">
-                        <ul class="ms-tab-menu-right-container">
-                          <li>
-                            <a href="home-class.html">Home Classifieds 1</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Classifieds 2 (Next Update)</a>
-                          </li>
-                          <li class="disable">
-                            <a href="javascript:void(0)">Classifieds 3 (Next Update)</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a href="{{ url('/nosotros') }}" class="animated fadeIn animation-delay-7" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-name="page">Nosotros
@@ -783,22 +694,17 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="ecommerce-filters.html">E-Commerce Sidebar</a>
+                    <a class="dropdown-item" href="ecommerce-filters.html">Buscador CIE10</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="ecommerce-filters-full.html">E-Commerce Sidebar Full</a>
+                    <a class="dropdown-item" href="ecommerce-filters-full.html">Homologador CUPS</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="ecommerce-filters-full2.html">E-Commerce Topbar Full</a>
-                  </li>
-                  <li class="dropdown-divider"></li>
-                  <li>
-                    <a class="dropdown-item" href="ecommerce-item.html">E-Commerce Item</a>
+                    <a class="dropdown-item" href="ecommerce-filters-full2.html">Soat</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="ecommerce-cart.html">E-Commerce Cart</a>
+                    <a class="dropdown-item" href="ecommerce-item.html">Iss 2001</a>
                   </li>
-                  
                 </ul>
               </li>
             </ul>
