@@ -5,7 +5,7 @@
       <header class="ms-hero-page ms-hero-video ms-hero-img-room ms-hero-bg-dark color-white intro-hero-full">
         <div class="intro-hero-full-content">
           <div class="container text-center">
-            <img class="animated zoomInDown animation-delay-7" src="{{ asset('assets/img/logo-borde-blanco.png') }}" alt="Logo utam">
+            <!--<img class="animated zoomInDown animation-delay-7" src="{{ asset('assets/img/logo-borde-blanco.png') }}" alt="Logo utam">-->
             <h2 class="no-m ms-site-title color-white center-block ms-site-title-lg mt-2 animated zoomInDown animation-delay-7">SOLUCIONANDO SUS NECESIDADES CON UTILIDAD
               <span></span>
             </h2>
@@ -23,7 +23,7 @@
               <div class="ms-icon-feature wow flipInX animation-delay-4">
                 <div class="ms-icon-feature-icon">
                   <span class="ms-icon ms-icon-lg ms-icon-inverse">
-                    <i class="fa fa-user"></i>
+                    <i class="fas fa-heart"></i>
                   </span>
                 </div>
                 <div class="ms-icon-feature-content">
@@ -36,7 +36,7 @@
               <div class="ms-icon-feature wow flipInX animation-delay-4">
                 <div class="ms-icon-feature-icon">
                   <span class="ms-icon ms-icon-lg ms-icon-inverse">
-                    <i class="fa fa-user"></i>
+                    <i class="far fa-handshake"></i>
                   </span>
                 </div>
                 <div class="ms-icon-feature-content">
@@ -62,7 +62,7 @@
               <div class="ms-icon-feature wow flipInX animation-delay-4">
                 <div class="ms-icon-feature-icon">
                   <span class="ms-icon ms-icon-lg ms-icon-inverse">
-                    <i class="fa fa-wordpress"></i>
+                    <i class="fas fa-users"></i>
                   </span>
                 </div>
                 <div class="ms-icon-feature-content">
@@ -103,39 +103,41 @@
       <!-- container -->
       <div class="wrap ms-hero-img-beach ms-hero-bg-info color-dark">
         <div class="container">
-          <h1 class="color-white text-center mb-4">Some numerical data</h1>
+          <h1 class="color-white text-center mb-4">NUESTRA FILOSOFÍA</h1>
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-info card-body overflow-hidden text-center wow zoomInUp animation-delay-3">
+                <h2 class=""></h2>
+                <i class="fa fa-4x fa-group color-info"></i>
+                <p class="mt-2 no-mb lead small-caps">happy clients</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="card card-royal card-body overflow-hidden text-center wow zoomInUp animation-delay-2">
-                <h2 class="counter">450</h2>
+                <h2 class=""></h2>
                 <i class="fa fa-4x fa-coffee color-royal"></i>
                 <p class="mt-2 no-mb lead small-caps">cups of coffee</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="card card-success card-body overflow-hidden text-center wow zoomInUp animation-delay-5">
-                <h2 class="counter">64</h2>
+                <h2 class=""></h2>
                 <i class="fa fa-4x fa-briefcase color-success"></i>
                 <p class="mt-2 no-mb lead small-caps">projects done</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="card card-danger card-body overflow-hidden text-center wow zoomInUp animation-delay-4">
-                <h2 class="counter">600</h2>
+                <h2 class=""></h2>
                 <i class="fa fa-4x fa-comments-o color-danger"></i>
                 <p class="mt-2 no-mb lead small-caps">comments</p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="card card-info card-body overflow-hidden text-center wow zoomInUp animation-delay-3">
-                <h2 class="counter">3500</h2>
-                <i class="fa fa-4x fa-group color-info"></i>
-                <p class="mt-2 no-mb lead small-caps">happy clients</p>
-              </div>
-            </div>
+            
           </div>
           <div class="text-center color-white mw-800 center-block mt-4">
-            <p class="lead lead-lg">Discover our projects and the rigorous process of creation. Our principles are creativity, design, experience and knowledge. We are backed by 20 years of research.</p>
+            <p class="lead lead-lg">Creemos que el trabajo en equipo, la comunicación y el liderazgo constructivo son la base de nuestra compañía. Nuestro equipo está encaminado a generar soluciones integrales conjuntas aportándole valor a su modelo de negocio.</p>
             <a href="javascript:void(0)" class="btn btn-raised btn-white color-info wow flipInX animation-delay-8">
               <i class="fa fa-space-shuttle"></i> I have a project</a>
           </div>
