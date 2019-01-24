@@ -10,8 +10,8 @@
               <span></span>
             </h2>
             <h1 class="animated fadeInUp animation-delay-12">Edificamos Sobre Tres Bases
-              <span class="typed-class typed-block color-info"></span>
             </h1>
+            <span class="typed-class typed-block color-info display-3"></span>
           </div>
         </div>
       </header>
@@ -101,93 +101,88 @@
         </section>
       </div>
       <!-- container -->
-      <div class="wrap ms-hero-img-beach ms-hero-bg-info color-dark">
-        <div class="container">
-          <h1 class="color-white text-center mb-4">NUESTRA FILOSOFÍA</h1>
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="card card-info card-body overflow-hidden text-center wow zoomInUp animation-delay-3">
-                <h2 class=""></h2>
-                <i class="fa fa-4x fa-group color-info"></i>
-                <p class="mt-2 no-mb lead small-caps">happy clients</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="card card-royal card-body overflow-hidden text-center wow zoomInUp animation-delay-2">
-                <h2 class=""></h2>
-                <i class="fa fa-4x fa-coffee color-royal"></i>
-                <p class="mt-2 no-mb lead small-caps">cups of coffee</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="card card-success card-body overflow-hidden text-center wow zoomInUp animation-delay-5">
-                <h2 class=""></h2>
-                <i class="fa fa-4x fa-briefcase color-success"></i>
-                <p class="mt-2 no-mb lead small-caps">projects done</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="card card-danger card-body overflow-hidden text-center wow zoomInUp animation-delay-4">
-                <h2 class=""></h2>
-                <i class="fa fa-4x fa-comments-o color-danger"></i>
-                <p class="mt-2 no-mb lead small-caps">comments</p>
-              </div>
-            </div>
-            
-          </div>
+      <div class="wrap ms-hero-img-beach ms-hero-bg-info color-dark mb-6">
+        <div class="container mb-6">
+          <h2 class="color-white text-center mb-4">NUESTRA FILOSOFÍA</h2>
+          
           <div class="text-center color-white mw-800 center-block mt-4">
             <p class="lead lead-lg">Creemos que el trabajo en equipo, la comunicación y el liderazgo constructivo son la base de nuestra compañía. Nuestro equipo está encaminado a generar soluciones integrales conjuntas aportándole valor a su modelo de negocio.</p>
-            <a href="javascript:void(0)" class="btn btn-raised btn-white color-info wow flipInX animation-delay-8">
-              <i class="fa fa-space-shuttle"></i> I have a project</a>
           </div>
         </div>
       </div>
-      <div class="container mt-6">
-        <div class="card wow fadeInUp">
-          <div class="card-body card-body-big">
-            <h3 class="text-center fw-500">Testimonials</h3>
-            <div class="mw-800 center-block">
-              <div id="carousel-example-generic" class="carousel-cards carousel slide" data-ride="carousel">
-                <div class="carousel-inner pb-4" role="listbox">
-                  <div class="carousel-item active">
-                    <blockquote class="blockquote ms-blockquote">
-                      <p class="lead">Voluptatibus fugit distinctio, corporis accusantium excepturi eos voluptates explicabo saepe. Nesciunt illo incidunt esse provident eos eligendi blanditiis voluptatum inventore quod id.</p>
-                      <footer>
-                        <strong>Alan Grants</strong>,
-                        <cite title="Source Title">Twitter Inc.</cite>
-                      </footer>
-                    </blockquote>
-                  </div>
-                  <div class="carousel-item">
-                    <blockquote class="blockquote ms-blockquote">
-                      <p class="lead">Voluptatibus fugit distinctio, corporis accusantium excepturi eos voluptates explicabo saepe. Nesciunt illo incidunt esse provident eos eligendi blanditiis voluptatum inventore quod id.</p>
-                      <footer>
-                        <strong>Alan Grants</strong>,
-                        <cite title="Source Title">Twitter Inc.</cite>
-                      </footer>
-                    </blockquote>
-                  </div>
-                  <div class="carousel-item">
-                    <blockquote class="blockquote ms-blockquote">
-                      <p class="lead">Voluptatibus fugit distinctio, corporis accusantium excepturi eos voluptates explicabo saepe. Nesciunt illo incidunt esse provident eos eligendi blanditiis voluptatum inventore quod id.</p>
-                      <footer>
-                        <strong>Alan Grants</strong>,
-                        <cite title="Source Title">Twitter Inc.</cite>
-                      </footer>
-                    </blockquote>
-                  </div>
-                </div>
-                <ol class="carousel-indicators carousel-indicators-primary">
-                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-              </div>
+      <!--Quienes somos-->
+      <div class="container mt-6 mb-6">
+        <h2 class="color-black text-center mb-4">¿QUIÉNES SOMOS?</h2>
+        
+        <div class="text-center color-black mw-800 center-block mt-4">
+          <p class="lead lead-lg">UTAM, una compañía que inició operaciones en el año 2000, en la que conceptos como fidelización, la actualización tecnológica, la innovación, el enfoque en resultados y una sólida trayectoria en el desarrollo de procesos de negocio, nos han convertido en una de las principales compañías en el sector que ofrece soluciones únicas y flexibles de acuerdo a las necesidades de los clientes y del mercado fluctuante.</p>
+        </div>
+      </div>
+      <!--fin quienes somos-->
+      <section class="wrap ms-hero-img-team ms-hero-bg-dark-light ms-bg-fixed">
+        <div class="text-center color-whit index-1">
+          <h1 class="no-m ms-site-title center-block ms-site-title-lg mt-2 animated zoomInDown animation-delay-5">MISIÓN</h1>
+          <p class="lead lead-lg color-light text-center center-block mt-2 mw-800 fw-300 animated fadeInUp animation-delay-7">Contribuir al desarrollo y crecimiento de las empresas mediante la gestión de diversas alternativas de servicios integrales BPO, en el área de la administración en salud y en todos aquellos servicios que garantiza a nuestros clientes el mejoramiento y la optimización de los procesos, la operación y la administración, gracias al equipo de profesionales que permiten el cumplimiento y posicionamiento de nuestra organización.</p>
+        </div>
+        <div class="container mt-6">
+          <div class="row index-1 color-dark d-flex justify-content-center">
+            
+          </div>
+        </div>
+      </section>
+
+       <!--Vision-->
+       <div class="container mt-6 mb-6">
+        <h2 class="color-black text-center mb-4">VISIÓN</h2>
+        
+        <div class="text-center color-black mw-800 center-block mt-4">
+          <p class="lead lead-lg">Ser reconocidos como la Firma de Outsourcing líder en el ofrecimiento y ejecución de servicios integrales tercerizados en administración en salud, procesos y operaciones, para nuestros clientes y usuarios, abierta a alianzas estratégicas con eficiencia, eficacia, economía a través de calidad y competitividad.</p>
+        </div>
+      </div>
+      <!--fin Vision-->
+
+      <!--carrusel de imagenes-->
+      <div id="carousel-example-generic4" class="ms-carousel ms-carousel-thumb carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators carousel-indicators-tumbs">
+        <li data-target="#carousel-example-generic4" data-slide-to="0" class="active">
+            <img class="" src="{{ asset('assets/img/demo/car1-thumb.png') }}" alt="">
+        </li>
+        <li data-target="#carousel-example-generic4" data-slide-to="1">
+            <img class="" src="{{ asset('assets/img/demo/car2-thumb.jpg') }}" alt="">
+        </li>
+        <li data-target="#carousel-example-generic4" data-slide-to="2">
+            <img class="" src="{{ asset('assets/img/demo/paris-thumb.png') }}" alt="">
+        </li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <img class="d-block img-fluid" src="<%= assets %>/img/demo/car1.png" alt="...">
+            <div class="carousel-caption">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-          </div>
         </div>
-      </div>
+        <div class="carousel-item">
+            <img class="d-block img-fluid" src="<%= assets %>/img/demo/car2.jpg" alt="...">
+            <div class="carousel-caption">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block img-fluid" src="<%= assets %>/img/demo/paris.jpg" alt="...">
+            <div class="carousel-caption">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+</div>
+      <!--fin de carrusel-->
+
       <!-- container -->
       <div class="wrap ms-hero-img-road ms-hero-bg-royal ms-bg-fixe mt-6">
         <div class="container">
